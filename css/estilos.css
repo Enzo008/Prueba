@@ -8,20 +8,26 @@ body {
 }
 
 .cabecera {
+    display: flex;
     background: #33A;
     color: white;
     margin: 0;
-    padding: 0.5em;
+    padding: 0.5em 0 0.5em 2em;
     font-weight: bold;
     -webkit-box-shadow: 3px 3px 39px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 3px 3px 39px -9px rgba(0, 0, 0, 0.75);
     box-shadow: 3px 3px 39px -9px rgba(0, 0, 0, 0.75);
 }
 
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
 .cabecera #tagline {
     padding: 0 0 0 1em;
     font-weight: normal;
-    font-size: 0.8em;
+    font-size: 1.8em;
 }
 
 .container {
